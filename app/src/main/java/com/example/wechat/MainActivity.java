@@ -13,6 +13,16 @@ import android.app.Fragment;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
+import android.content.Context;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+
 public class MainActivity extends Activity implements View.OnClickListener {
 
     private Fragment mTab01=new weixinFragment();
